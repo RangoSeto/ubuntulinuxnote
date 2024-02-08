@@ -1,0 +1,82 @@
+=> 32bit vs 64bit
+
+
+=>Ubuntu
+Free
+Not user-friendly
+Very reliable
+best for multi-tasking
+very secure
+open to public
+
+
+=> Linux Kernel
+
+https://distrowatch.com/
+https://distrowatch.com/ > (Menu Bar) > DistroWatch.com > Page Hit ranking
+
+Ubuntu				Free
+CentOS				Free
+Redhat				Paid (Not open source)
+Fedora				Free
+SuSe				Free & Paid
+Debian				Free
+Linux Mint			Free
+Arch Linux			Free
+
+(centOS & redhat are used for networking)
+
+
+
+=>Open Terminal (Linux is Case sensitive Operation System)
+ctrl+alt+t
+
+
+
+=>Linux Color Coading
+Blue = Directory (such as url,etc...)
+Green = Executable or recognized data file
+Skyblue = Symbolic Link file (like shortcut file)
+Pink = Graphic image file
+Red = Archive file (zip,tar,tar.gz etc,...)
+
+
+=> Common Directories
+/			"Root" the top of the file system
+/bin		Binary or executable programs
+/etc 		System configuration files
+/home		home directory. it is the default current directory
+/opt 		Optional or third-party software
+/tmp		Temporty space, typically cleared on reboot
+/usr 		User related programs
+/var 		Variable data, most notably log files
+
+
+=> Basic Line Commands
+ls 		- 	Lists directory contents
+cd 		- 	Changes the current directory
+pwd 	- 	Displays the present working directory
+cat 	- 	Concatenates and display file
+echo 	- 	Display arguments to the screen
+exit 	- 	Exits the shell or your current session
+clear 	- 	Clear the screen
+
+
+
+=> APT (Advanced Packaging Tool)
+
+(update is for package and upgrade is for version)
+
+sudo apt-get update
+sudo apt update
+
+sudo apt-get upgrade
+sudo apt upgrade
+
+sudo apt-get upgrade -y
+sudo apt upgrade -y
+
+sudo apt-get update && sudo apt-get upgrade -y
+
+
+

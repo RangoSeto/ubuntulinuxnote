@@ -1,0 +1,88 @@
+=> Folder Navigation
+
+. 		= This directory
+..  	= The parent directory
+cd 		= Go to next directory
+cd - 	= Change to the previous directory
+/ 		= Directory separator (forward slash)
+
+
+=> Check current directory
+pwd 		/home/rango
+
+ls
+ls .. 		rango //(၁ကယ်နောက်ဆုတ်တာမဟုတ်သေးဘူး ဘာရှိလဲလှမ်းကြည့်ရုံ)
+ls ../..	bin dev lib libx32 mnt root snap sys var boot etc ...
+
+
+ctrl+alt+t
+ls
+cd Music/
+ls
+cd folderone/
+ls
+cd 1/
+ls 
+cd ..
+ls
+cd ..
+ls
+pwd 		/home/rango/Music
+cd 'folder two'
+ls
+cd ..
+pwd 		/home/rango/Music
+cd folder\ two
+
+
+ctrl+alt+t
+ls
+cd Music/
+ls
+cd folderone/
+ls 
+cd 1/
+ls
+cd 			//(မူလhomeကိုပဲပြန်ရောက်သွားတာ)
+pwd 		/home/rango
+
+
+ctrl+alt+t
+ls
+cd Music/
+ls
+cd folderone/
+ls 
+cd 1/
+ls
+cd -		(ဒီဟာခေါ်ထားတာရဲ့ နောက်ကဟာကိုလှမ်းခေါ်တာ)
+cd - 		/home/rango/Music/folderone
+cd - 		/home/rango/Music/folderone/1
+cd - 		/home/rango/Music/folderone
+cd - 		/home/rango/Music/folderone/1
+
+
+ctrl+alt+t
+ls
+cd Music/
+ls
+cd folderone/
+ls 
+cd 1/
+ls
+cd -- 		/home/rango (cdနဲ့တူတူပဲ homeကိုပြန်ရောက်တာ) (Note:: still in home folder)
+
+
+ctrl+alt+t
+ls
+cd Music/
+ls
+cd folderone/
+ls 
+cd 1/
+ls
+cd / 		/home/rango (cdနဲ့ဆင်တယ် rootကိုပြန်ရောက်တာ) (Note:: under root folder)
+
+
+// (cd, cd --, =>home dir , cd / =>root dir)
+

@@ -1,0 +1,77 @@
+=> History Commands
+
+
+
+=>Clear terminal
+clear		(clear)
+ctrl+m+l 	(clear) (clear all dir and history and dir move to root)
+
+ctrl+m 		(new line)
+ctrl+l 		(clear) (remove history not dir, same to clear)
+
+
+
+=>Close Terminal
+exit
+ctrl+d
+
+
+=>Cursor to start char in Terminal
+ctrl+a 		(cursorကိုထိပ်ဆံုးကိုရေွ့တာ)
+
+
+=>Cursor to end char in Terminal
+ctrl+e 		(cursorကိုနောက်ဆံုးကိုရေွ့တာ)
+
+
+=>Find used commands again
+ctrl+r  
+enter (if you want to use)
+ctrl+g (if you want to cancel)
+
+
+=>Command Callback
+Press up arrow key      (callback)
+Press down arrow key    (callback)
+!!                      (callback last command and run again)
+history                 (see all commands history)
+history 5               (see last 5 commands history)
+!1457                   (callback history from commands history and run again) (1457ကcode line)
+!1457:p                 (get command from commands history just print) (p=print)
+history -c              (clear all history)
+
+
+=>wget
+wget https://storage.googleapis.com/pod_public/1300/150537.jpg
+ls
+
+
+
+=> Check all history in .bash_history
+ctrl+alt+t 
+ls 
+ls -l 
+ls -a                       // (show all file also include hidden file (a=all file))
+ls -l -a 
+ls -la    or    ls -al
+ls -lah   or    ls -alh
+
+cat .bash_history          // terminalထဲမှာရေးခဲ့သမျှcodeတွေအကုန်ပြန်ပြပေးမှာ (if you want to use with command use history)
+vim .bash_history
+ctrl+c 
+:qa
+
+
+=>Ignore Space & Ignore Multi Times
+ls -l -a 
+history
+ ls -la         // ရှေ့ဆုံးမှာspaceခံရိုက်ရင် historyထဲမဝင်ဘူး
+history
+cd 
+cd
+cd
+cd
+history (if you type many time continuously, history recorded only one times)
+
+
+
